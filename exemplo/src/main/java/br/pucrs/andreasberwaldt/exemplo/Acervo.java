@@ -1,7 +1,6 @@
 package br.pucrs.andreasberwaldt.exemplo;
 
 import java.util.*;
-import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 
 @Component

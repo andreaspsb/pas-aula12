@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/biblioteca")
-public class ExemploController {
+public class ExemploControllerOriginal {
 
     private List<Livro> livros;
 
-    public ExemploController() {
+    public ExemploControllerOriginal() {
         livros = List.of(
                 new Livro(1, "1984", "George Orwell", 1949),
                 new Livro(2, "To Kill a Mockingbird", "Harper Lee", 1960),
